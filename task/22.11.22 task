@@ -1,0 +1,49 @@
+
+22.11.22 task
+===================================
+shipping method
+table name :shipping_methods
+id
+name varchar
+cost decimal 11,2
+created_at
+updated_at
+
+payment methods
+id
+name
+created_at
+updated_at
+
+
+23.11.2022 task
+=================================
+contactus_reply
+id=int
+receiver_id
+subject
+message
+created_at
+updated_at done
+
+
+
+newsletter_mail
+id
+receiver_id
+email_id
+subject
+message
+created_at
+updated_at
+
+
+gorupby show only first replt
+search box sugesstion font color not ok temporary inline css put in to code
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+orders table
+id
+customer_id
+shipping_address
+billing_address
+status
+shipping_method
+payment_method
+total_amount
+last_updated_at
+created_at
+updated_at
+
+
+
+
+order_products
+
+id
+customer_id
+order_id
+product_id
+per_unit_price 10
+qty 3
+total_price  
+attributes 		
+created_at
+updated_at
+
+
+
+name="	[first_name]"
+name="shipping_address[first_name]"
+name="shipping_address[first_name]"
+name="shipping_address[first_name]" 
+
+$shipping_address = $request->shipping_address;
+shipping_address= $(s)
+₹ 
+
+
+done
+shipping_address = json_encode($s)	

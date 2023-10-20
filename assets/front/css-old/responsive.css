@@ -1,0 +1,667 @@
+@media (min-width: 1400px) {
+
+    .section-body-container .section-body-wrapper,
+    .section-title-wrapper,
+    .section-title-wrapper,
+    .listato-container,
+    .form-container {
+        max-width: 1280px;
+    }
+
+    .input {
+        width: 100%;
+    }
+    .lang{
+        display: none;
+    }
+}
+
+@media (max-width: 1399px) and (min-width: 1225px) {
+    .lang {
+        display: none;
+    }
+
+
+    .section-body-container .section-body-wrapper,
+    .section-title-wrapper,
+    .section-title-wrapper,
+    .listato-container,
+    .form-container {
+        max-width: 90%;
+        width: 90%;
+    }
+
+    .form-container {
+        width: 80% !important;
+    }
+
+    .listato-container {
+        width: 80%;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 2560px) and (min-width: 1441px) {
+    .main-container {
+        padding-top: 80px;
+        margin: 0 auto;
+    }
+
+    .form-container {
+        width: 100% !important;
+    }
+
+    .listato-container {
+        width: 100%;
+    }
+
+    .input {
+        border: 1px solid #cedce2;
+        width: 100%;
+        height: 35px;
+        line-height: 22px;
+    }
+
+    .footer-container .footer-wrapper {
+        width: 100%;
+    }
+
+    input[type="checkbox"][id^="search"]+label,
+    input[type="checkbox"][id^="sec"]+label {
+        text-transform: uppercase;
+        display: inline-block;
+        margin-top: 4px;
+        padding: 4px 12px;
+        color: #bed1d9;
+        background-color: white;
+        border: 2px solid #cedce2;
+        cursor: pointer;
+    }
+
+    label[for^="ico"] {
+        margin: 15px;
+    }
+}
+
+
+@media (max-width: 1224px) and (min-width: 600px) {
+    .lang {
+        display: none;
+    }
+    .sub-menus-container {
+        margin-top: 0px;
+    }
+    .menu-desktop-nav {
+        margin-top: 0px;
+    }
+
+
+
+    .listato-container .listato-wrapper .single-product {
+        width: 20%;
+    }
+
+    .form-container,
+    .section-body-container .section-body-wrapper,
+    .section-title-wrapper,
+    .section-title-wrapper {
+        width: 80% !important;
+    }
+
+    .listato-container {
+        width: 80%;
+    }
+
+    li.checks label {
+        margin-left: 70px;
+    }
+
+    #check_1 {
+        margin-left: -14px;
+    }
+
+    #check_2 {
+        margin-left: 2px;
+    }
+
+    .select-strip .label-select {
+        padding-top: 2px;
+    }
+
+    .input {
+        border: 1px solid #cedce2;
+        width: 100%;
+        height: 26px;
+        line-height: 18px;
+    }
+
+    .listato-container .listato-wrapper .single-product img {
+        width: 100%;
+    }
+
+    .listato-container .listato-wrapper .single-product {
+        width: 25%;
+    }
+
+    .label-select {
+        -webkit-box-align: center;
+    }
+}
+
+@media (max-width:912px) and (min-width:911px) {
+    label#sec-Carne\ e\ pesce {
+        margin-left: 0px;
+    }
+    .menu-desktop-nav{
+        margin-top: -800px;
+    }
+    .sub-menus-container{
+        margin-top: -800px;
+    }
+
+    label#sec-Cialde\ di\ caffè {
+        margin-left: 53px;
+    }
+
+    #check_1 {
+        margin-left: 14px;
+    }
+}
+
+@media (max-width:897px) and (min-width:895px){
+    .menu-desktop-container .menu-desktop-nav{
+        display: contents;
+    }
+    .menu-desktop-container .sub-menus-container{
+        display: contents;
+    }
+}
+
+@media (max-width:821px) and (min-width:819px) {
+    .menu-desktop-nav{
+        margin-top: -550px;
+    }
+}
+
+@media (max-width: 910px) and (min-width: 768px) {
+    .sub-menus-container {
+        margin-top: -271px;
+    }
+
+    .menu-desktop-nav {
+        margin-top: -320px;
+    }
+
+
+    label#sec-Cialde\ di\ caffè {
+        margin-left: 53px;
+    }
+
+    li.checks label {
+        margin-left: 55px;
+    }
+
+    label#sec-Cialde\ di\ caffè {
+        margin-left: 0px;
+    }
+
+    #check_1 {
+        margin-left: 50px;
+    }
+
+    label#sec-Carne\ e\ pesce {
+        margin-left: 53px;
+    }
+
+    .select-strip {
+        display: block;
+    }
+
+    .select-strip li {
+        width: 49%;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 600px) {
+    .select-strip {
+        display: block;
+    }
+
+    .select-strip li {
+        width: 49%;
+        display: inline-block;
+    }
+
+    .listato-container .listato-wrapper .single-product span {
+        font-size: 14px;
+    }
+
+    .listato-container .listato-wrapper .single-product .single-product-pills span {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 717px) and (min-width: 716px) {
+    .menu-desktop-container .sub-menus-container{
+        margin-top: 0px;
+    }
+    .menu-desktop-container .menu-desktop-nav{
+        margin-top: 0px;
+    }
+
+
+    .select-strip {
+        display: block;
+    }
+
+    .select-strip li {
+        width: 49%;
+        display: inline-block;
+    }
+
+    label#sec-Carne\ e\ pesce {
+        margin-left: 53px;
+    }
+
+    label#check_1 {
+        margin-left: 53px;
+    }
+}
+
+@media (max-width: 599px) and (min-width: 300px) {
+    * {
+        font-size: 12px;
+    }
+
+    span#en{
+        display: none;
+    }
+
+    span#it{
+        display: none;
+    }
+
+    .menu-desktop-container .menu-desktop-nav{
+        padding-top: 0px;
+    }
+
+    li.checks {
+        clear: both;
+        text-align: center;
+        width: 41%;
+        margin-right: 25px !important;
+    }
+
+    label#sec-Pasto\ pronto {
+        margin-left: 40px !important;
+    }
+
+    label#sec-Carne\ e\ pesce {
+        margin-left: 40px;
+    }
+
+    .middle-strip {
+        -webkit-box-align: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 599px) and (min-width: 400px) {
+    * {
+        font-size: 12px;
+    }
+
+    a#spanCata{
+        margin-right: 10px;
+    }
+
+    .lang {
+        text-align: end;
+        margin: 30px 74px;
+    }
+
+    img#lIcon {
+        width: 6%;
+        margin: -3px 6px;
+    }
+
+    span#enTag {
+        font-size: 20px;
+    }
+
+    a.langen {
+        font-size: 20px;
+    }
+
+    a.langit {
+        font-size: 20px;
+    }
+
+
+
+    .select-strip li {
+        margin-left: 32px;
+    }
+
+    #filterMessage {
+        font-size: 21px;
+        text-transform: uppercase;
+        margin: 1px 0 1px 0;
+        line-height: 23px;
+    }
+
+    .listato-container .listato-wrapper .single-product img {
+        width: 80%;
+    }
+
+    .listato-container .listato-wrapper .single-product {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .select-strip li {
+        display: inline-block;
+        flex: 1 0 100%;
+    }
+
+    .input {
+        display: flex;
+        flex-wrap: wrap;
+        width: 210px;
+    }
+
+    .middle-strip li.icons {
+        width: 33%;
+    }
+
+    .label-select {
+        width: -100%;
+    }
+
+    .middle-strip li {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 414px) and (min-width: 300px) {
+    * {
+        font-size: 12px;
+    }
+
+    .menu-desktop-container .sub-menus-container{
+        height: 40%;
+    }
+    a#spanCata{
+        margin-right: 10px;
+    }
+
+    .lang {
+        text-align: end;
+        margin: 28px 74px;
+    }
+
+    img#lIcon {
+        width: 6%;
+        margin: -2px 6px;
+    }
+
+    span#enTag {
+        font-size: 20px;
+    }
+
+    a.langen {
+        font-size: 20px;
+    }
+
+    a.langit {
+        font-size: 20px;
+    }
+
+    li.checks {
+        clear: both;
+        text-align: center;
+        width: 41%;
+        margin-right: 14px !important;
+    }
+
+    label#sec-Pasto\ pronto {
+        margin-left: 5px !important;
+    }
+
+    label#sec-Carne\ e\ pesce {
+        margin-left: 5px !important;
+    }
+
+    .select-strip li {
+        margin-left: 44px;
+    }
+
+    .section-title-container .section-title-wrapper .section-title h1 {
+        font-size: 32px;
+    }
+
+    .section-body-container .section-body-wrapper {
+        width: 100%;
+    }
+
+    .footer-container {
+        width: 100%;
+    }
+
+    .search-check {
+        display: -webkit-inline-box;
+    }
+
+    .select-strip {
+        display: block;
+    }
+
+    .input {
+        border: 1px solid #cedce2;
+        width: 100%;
+        height: 26px;
+        line-height: 18px;
+    }
+
+    .listato-container .listato-wrapper .single-product {
+        width: 50%;
+    }
+}
+
+@media (max-width:375px) and (min-width:374px) {
+    label#sec-Pasto\ pronto {
+        margin-left: 5px !important;
+    }
+
+    .header-bar span {
+        margin-right: 35px;
+        border: 0px;
+    }
+
+    li.checks {
+        clear: both;
+        text-align: center;
+        width: 41%;
+        margin-right: 23px !important;
+    }
+
+    label#sec-Carne\ e\ pesce {
+        margin-left: 5px !important;
+    }
+
+    .select-strip li {
+        margin-left: 32px;
+    }
+
+
+    span#en{
+        display: none;
+    }
+
+    span#it{
+        display: none;
+    }
+
+    .header {
+        display: flex;
+    }
+
+    a.langit {
+        font-size: 20px;
+    }
+
+    .lang {
+        text-align: end;
+        margin: 30px 75px;
+    }
+
+    a.langen {
+        font-size: 20px;
+    }
+
+    img#lIcon {
+        margin: -3px 7px;
+        width: 8%;
+    }
+
+    span#itTag {
+        margin-right: 10px;
+    }
+
+    a.langen {
+        margin-right: 12px;
+    }
+    .menu-desktop-container .sub-menus-container{
+        height: 40%;
+    }
+
+}
+
+@media (max-width: 399px) and (min-width: 300px) {
+    * {
+        font-size: 12px;
+    }
+
+    .section-title-container .section-title-wrapper .section-title h1 {
+        font-size: 32px;
+    }
+
+    #filterMessage {
+        font-size: 21px;
+        text-transform: uppercase;
+        margin: 1px 0 1px 0;
+        line-height: 23px;
+    }
+
+    .listato-container .listato-wrapper .single-product span {
+        font-size: 12px;
+    }
+
+    .listato-container .listato-wrapper .single-product .single-product-pills span {
+        font-size: 12px;
+    }
+
+    .listato-container .listato-wrapper .single-product {
+        width: 50%;
+    }
+
+    .middle-strip li.icons {
+        width: 33%;
+    }
+
+    .select-strip li {
+        margin-left: 32px;
+    }
+
+    .label-select {
+        width: 100%;
+    }
+
+    input[type="checkbox"][id^="search"]+label,
+    input[type="checkbox"][id^="sec"]+label {
+        margin-top: 4px;
+        padding: 4px 12px;
+        font-size: 14px;
+    }
+
+    .section-title-container .section-title-wrapper .section-title h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:299px) and (min-width:130px) {
+    * {
+        font-size: 12px;
+    }
+    .lang{
+        text-align: end;
+        margin: 30px 70px;
+    }
+    span#en{
+        display: none;
+    }
+    span#it{
+        display: none;
+    }
+    .header-bar span{
+        border: 0px;
+    }
+    a#spanCata {
+        margin-right: 10px;
+    }
+    img#lIcon {
+        width: 6%;
+    }
+    a.langen {
+        font-size: 20px;
+    }
+    a.langit {
+        font-size: 20px;
+    }
+    img#lIcon {
+        margin: 0px 7px;
+        width: 10%;
+    }
+    span#itTag {
+        margin-right: 10px;
+    }
+
+    a.langen {
+        margin-right: 12px;
+    }
+    .menu-desktop-container .menu-desktop-nav{
+        margin-top: -80px !important;
+    }
+
+
+    .section-title-container .section-title-wrapper .section-title h1 {
+        font-size: 30px;
+    }
+
+    .listato-container .listato-wrapper .single-product {
+        width: 100%;
+    }
+
+    .input {
+        display: flex;
+        flex-wrap: wrap;
+        width: 140px;
+        height: 28px;
+    }
+
+    .search-check {
+        display: inline;
+
+    }
+
+    .middle-strip li.checks {
+        display: contents;
+    }
+
+
+}

@@ -1,0 +1,95 @@
+* {
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.load-more {
+    clear: both;
+}
+
+.btn-load {
+    border-radius: 4px;
+    background-color: rgb(235, 97, 0);
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    width: 125px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+    height: 30px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -10px -50px;
+}
+
+.btn-load {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn-load:after {
+    content: "»";
+    position: absolute;
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn-load:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+}
+
+.btn-load:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.cpet {
+    margin-top: 2px;
+}
+
+.inputBox {
+    cursor: pointer;
+    position: relative;
+}
+
+.input {
+    border: 1px solid #cedce2;
+    width: 100%;
+    height: 32px;
+    line-height: 18px;
+    font-size: 16px;
+}
+
+.divInput {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+span#en {
+    margin-right: 8px;
+}
+
+span#it {
+    margin-right: 8px;
+}
+
+img#langIcon {
+    width: 5%;
+}
+    
+a.lang {
+    font-size: 18px;
+    padding-left: 6px;
+}
